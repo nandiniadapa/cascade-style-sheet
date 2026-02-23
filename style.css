@@ -1,12 +1,15 @@
 .loginpage{
     border-radius: 25px;
-    margin: 100px;
-    border: 10px solid rgb(233, 208, 208);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 5px solid rgb(233, 208, 208);
     font-weight: bold;
     font-size: 23px;
     background-color: #ebf1f3;
-  
-    width:399px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
     box-sizing: border-box;
 }
  
@@ -26,7 +29,8 @@
     border-radius: 20px;
     font-size: 28px;
     font-weight: bold;
-    padding:20px;
+    padding left:20px;
+    padding: 20px;
 }
  .password-label{
     margin: -5px;
@@ -48,8 +52,8 @@
  }
     .submit-button{
     background: white;
-    color: rgb(53 76 90);
-    font-size: 24px;
+    color: rgb(141, 192, 243);
+    font-size: 20px;
     font-weight: bold;
     border: 25px;
     border-radius: 0px;
@@ -58,5 +62,11 @@
 }
 
 h1{
-    text-align: center; 
+    text-align: center;    
+}
+body{
+    background-color: #ebf1f3;
+    place-items: center;
+    display: grid;  
+    justify-content: center;
 }
