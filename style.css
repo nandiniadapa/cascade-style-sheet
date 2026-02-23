@@ -11,12 +11,12 @@
 }
  
 .username-input{
-    border: 4px solid #F44336;
-    padding: 10px;
-    height: 20px;
-    margin: 10px;
-    border-radius: 20px;
-}
+    border: 1px solid #36acf4;
+    padding: 12px;
+    height: 19px;
+    margin: 11px;
+    border-radius: 3px;
+    width: 200px;
 .username-label{
     margin: -5px;
     border: 72px;
@@ -27,20 +27,21 @@
     font-weight: bold;
 }
  .password-label{
-margin: -5px;
+    margin: -5px;
     border: 72px;
     height: 20px;
     text-align: center;
     border-radius: 20px;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bold; 
  }
  .password-input{
-  border: 4px solid #F44336;
-    padding: 10px;
-    height: 20px;
-    margin: 10px;
-    border-radius: 20px;
+    border: 1px solid #36acf4;
+    padding: 12px;
+    height: 19px;
+    margin: 11px;
+    border-radius: 3px;
+    width: 200px;
  }
     .submit-button{
     background: white;
